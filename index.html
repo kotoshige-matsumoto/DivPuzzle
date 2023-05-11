@@ -1,1 +1,28 @@
-<h2>見出し</h2>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSSファイルを読み込む</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
+  <style>
+    .clearfix {
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="height: 100px; width: 400px; background: #ff0000;"></div>
+  </header>
+  <main>
+    <div style="float: left; height: 250px; width: 150px; background: #00ff1e;"></div>
+    <div style="float: left; height: 250px; width: 250px; background: #3300ff;"></div>
+    <div class="clearfix"></div>
+  </main>
+  <footer>
+    <div style="height: 100px; width: 400px; background: #ffe600;"></div>
+  </footer>
+</body>
+</html>
